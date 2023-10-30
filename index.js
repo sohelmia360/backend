@@ -13,6 +13,10 @@ app.get("/youtube",(req,res)=>{
     res.send("Coding Sohel")
 })
 
+app.get("/about",(req,res)=>{
+    res.send("about page")
+})
+
 
 app.listen(port, ()=>{
     console.log(`Server is running at port number ${port}`)
